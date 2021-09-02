@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+    font-family: 'Arimo', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position-y: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection * {
+    width: 200px;
+    padding: .3em;
+    margin: .5em;
+}
+
+.zone {
+    text-align: center;
+}
+
+.location option, select, .state {
+    text-transform: capitalize;
+}
+
+.waktu-solat {
+    text-align: center;
+    background-color: rgb(51, 51, 0, 0.5);
+    padding: 2em;
+    margin: 1em;
+    width: 200px;
+    border-radius: .5em;
+    border: none;
+    outline: none;
+}
+
+.waktu-solat h3 {
+    text-transform: capitalize;
+    font-size: 1.3em;
+}

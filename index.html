@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Waktu Solat Malaysia</title>
+</head>
+<body>
+    <script src="main.js" defer></script>
+    <div class="main">
+        <h1 class="state">Waktu Solat In ...</h1>
+
+        <div class="selection">
+            <select class="states" id="states" onchange="getZone()">
+                <option> -- select a state -- </option>
+            </select>
+
+            <select class="zone" id="zone" onchange="getWaktuSolat()">
+                    <option> -- select a zone -- </option>
+            </select>
+        </div>
+
+        <div class="waktu-solat">
+        </div>
+    </div>
+
+</body>
+</html>
