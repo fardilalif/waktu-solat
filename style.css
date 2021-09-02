@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.main h1 {
+    text-align: center;
+}
+
 .selection {
     display: flex;
     flex-direction: column;
