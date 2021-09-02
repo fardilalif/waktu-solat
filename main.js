@@ -14,7 +14,7 @@ function displayState() {
         .then(data => {
             data.data.negeri.forEach(state => {
                 let optionState = document.createElement("OPTION");
-                optionState.label = state;
+                optionState.label = optionState.innerText = state;
                 optionState.value = state;
                 document.querySelector(".states").appendChild(optionState);
             })
@@ -56,7 +56,7 @@ function displayZone(state) {
 
             data.data.negeri.zon.forEach(zone => {
                 let optionZone = document.createElement("OPTION");
-                optionZone.label = zone;
+                optionZone.label = optionZone.innerText = zone;
                 optionZone.value = zone;
                 selectZone.appendChild(optionZone);
             });
