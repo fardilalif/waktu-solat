@@ -38,7 +38,7 @@ body {
     margin: .5em;
 }
 
-.zone {
+.zone, .states {
     text-align: center;
 }
 
