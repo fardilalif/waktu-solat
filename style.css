@@ -38,7 +38,11 @@ body {
     margin: .5em;
 }
 
-.zone, .states {
+.states {
+    text-align: center;
+}
+
+.zone  {
     text-align: center;
 }
 
